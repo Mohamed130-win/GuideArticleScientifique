@@ -678,6 +678,10 @@ header .container {
 }
 
 @media (max-width: 768px) {
+    .header-actions {
+        right: 1rem;
+    }
+    
     .modal-content {
         width: 98%;
         margin: 1rem;
@@ -730,6 +734,10 @@ header .container {
 }
 
 @media (max-width: 480px) {
+    .header-actions {
+        right: 0.5rem;
+    }
+    
     .modal-content {
         width: 100%;
         height: 100%;
