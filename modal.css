@@ -678,8 +678,25 @@ header .container {
 }
 
 @media (max-width: 768px) {
+    header .container {
+        padding: 0 1rem;
+    }
+    
+    .header-title {
+        font-size: 1.2rem;
+    }
+    
     .header-actions {
         right: 1rem;
+    }
+    
+    .circle-btn {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .circle-btn i {
+        font-size: 1.1rem;
     }
     
     .modal-content {
@@ -734,8 +751,26 @@ header .container {
 }
 
 @media (max-width: 480px) {
+    header .container {
+        padding: 0 0.5rem;
+    }
+    
+    .header-title {
+        font-size: 1rem;
+        padding-right: 50px;
+    }
+    
     .header-actions {
         right: 0.5rem;
+    }
+    
+    .circle-btn {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .circle-btn i {
+        font-size: 1rem;
     }
     
     .modal-content {
