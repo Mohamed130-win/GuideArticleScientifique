@@ -748,6 +748,24 @@ header .container {
     .about-description {
         font-size: 1rem;
     }
+    
+    /* P1 Content Responsive */
+    .content-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .content-card h4 {
+        font-size: 1.1rem;
+    }
+    
+    .content-card table {
+        font-size: 0.9rem;
+    }
+    
+    .content-card table th,
+    .content-card table td {
+        padding: 0.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -789,5 +807,38 @@ header .container {
     
     .content-card {
         padding: 1rem;
+    }
+    
+    /* P1 Content Responsive for Small Screens */
+    .content-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .content-card h4 {
+        font-size: 1rem;
+    }
+    
+    .content-card p,
+    .content-card li {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .content-card table {
+        font-size: 0.85rem;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .content-card table th,
+    .content-card table td {
+        padding: 0.4rem;
+        min-width: 100px;
+    }
+    
+    .content-card ol,
+    .content-card ul {
+        padding-left: 1.2rem;
     }
 }
